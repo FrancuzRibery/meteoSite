@@ -1,0 +1,12 @@
+---
+title: Годовые данные
+author: ''
+date: '2019-02-28'
+description: Годовые данные
+runtime: shiny
+output: html_document
+---
+
+
+<iframe height="2200px" width="100%" frameborder="no" src="https://francuzribery.shinyapps.io/meteoPlotYearly/"> </iframe>
+
