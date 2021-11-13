@@ -1,0 +1,43 @@
+baseURL: https://example.com
+runtime: shiny
+author: Кириченко Родион
+copyright: Copyright © 2021, Кириченко Родион, все права защищены.
+paginate: 10
+languageCode: ru
+DefaultContentLanguage: ru
+enableInlineShortcodes: yes
+ignoreErrors: error-remote-getjson
+theme: hugo-paper
+title: МетеоХакасия
+
+params:
+  #github: nanxiaobei
+  #instagram: nan.xiaobei
+  #twitter: nanxiaobei
+menu:
+  main:
+    - identifier: day
+      name: Дневные данные
+      url: /day/
+      weight: 1
+    - identifier: month
+      name: Месячные данные
+      url: /month/
+      weight: 1
+    - identifier: year
+      name: Годовые данные
+      url: /year/
+      weight: 2
+    - identifier: regional
+      name: Региональный монитор
+      url: /regional/
+      weight: 3     
+    - identifier: archive
+      name: Архив погоды
+      url: /archive/
+      weight: 4
+    - identifier: about
+      name: О сайте
+      url: /about/
+      weight: 5
+
